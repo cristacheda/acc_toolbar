@@ -134,5 +134,39 @@
       "btn_cursor_black": "gros curseur<br>noir",
       "btn_zoom_in": "élargir<br>l'écran"
     }
+  },
+  "ro-RO": {
+    "btn_open": "meniu accesibilitate", //////
+    "btn_close": "închide",
+    "keyboard_root": "navigare tastatură",
+    "disable_animattions": "dezactivează animațiile",
+    "access_declaration": "declarație accesibilitate",
+    "debug_contacts": "raportează problemă accesibilitate",
+    "reset_all_settings": "stare inițială",
+    "image_without_alt": "imagine fără text",
+    "contrast_block": {
+      "header": "contrast",
+      "btn_monochrome": "afișaj<br>alb-negru",
+      "btn_bright": "contrast<br>crescut",
+      "btn_invert": "inversează<br>culorile"
+    },
+    "text_block": {
+      "header": "mărime text",
+      "btn_font_up": "mărește<br>textul",
+      "btn_font_down": "micșorează<br>textul",
+      "btn_font_readable": "text<br>lizibil"
+    },
+    "content_block": {
+      "header": "accentuează conținutul",
+      "btn_underline_links": "subliniază<br>linkurile",
+      "btn_underline_headers": "subliniază<br>titlurile",
+      "btn_images_titles": "titlurile<br>imaginilor"
+    },
+    "zoom_block": {
+      "header": "mărește",
+      "btn_cursor_white": "cursor alb<br>mărit",
+      "btn_cursor_black": "cursor negru<br>mărit",
+      "btn_zoom_in": "mărește<br>ecranul"
+    }
   }
 }
