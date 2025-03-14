@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Toolbar Example</title>
+    <link rel="stylesheet" href="acctoolbar/acctoolbar.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    <p>This is an example page demonstrating the accessibility toolbar. The toolbar supports multiple languages including English, Hebrew, Russian, French, and Romanian.</p>
+    
+    <h2>Sample Content</h2>
+    <p>Here's some sample content to test various accessibility features like text size, contrast, and more.</p>
+    
+    <img src="https://placehold.co/400x200" alt="A placeholder image">
+    
+    <h2>Features Available</h2>
+    <ul>
+        <li>Adjust text size</li>
+        <li>Change contrast</li>
+        <li>Highlight links and headers</li>
+        <li>Show image descriptions</li>
+        <li>Zoom functionality</li>
+        <li>Custom cursor options</li>
+    </ul>
+
+    <!-- Include the accessibility toolbar script -->
+    <script src="acctoolbar/acctoolbar.min.js"></script>
+    <script>
+        window.onload = function() {
+            window.micAccessTool = new MicAccessTool({
+                link: '#',
+                contact: '#',
+                buttonPosition: 'right',
+                // forceLang: 'ro-RO'
+            });
+        };
+    </script>
+</body>
+</html>
